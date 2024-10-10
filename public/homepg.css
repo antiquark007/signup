@@ -1,0 +1,397 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(243, 239, 239);
+}
+
+nav{
+    background-color: #02B964;
+    height: 7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1vh;
+    justify-content: space-between;
+}
+.phone{
+    padding: 100px;
+    margin: 10px;
+}
+.phone span{
+    color: white;
+    
+}
+.fa-phone{
+    color: white;
+    font-size: 15px;
+}
+.fa-envelope{
+    color: white;
+    font-size: 15px;
+}
+.social-media{
+    padding-right: 20vh;
+    gap: 20px;
+}
+.social-media button{
+    padding: 7px;
+    border: 5px;
+    border-radius: 50px;
+    background-color: white;
+    color: #5a8861;
+}
+.pages{
+    background-color: white;
+    height: 17vh;
+    display: flex;
+    justify-items: space-around;    
+    align-items: center;
+    justify-content: center;
+}
+.logo{
+    padding: 60px;
+}
+.font{
+    font-size: 30px;
+}
+.content{
+    padding: 100px;
+}
+.content .normalbtn{
+    margin: 25px;
+    background: none;
+    border: none;
+    font-size: 15px;
+    color: grey;
+}
+.content .normalbtn1{
+    margin: 25px;
+    background: none;
+    border: none;
+    font-size: 15px;
+    color: #02B964;
+}
+.specialbtn{
+    background-color: #02B964;
+    border: none;
+    border-radius: 10px;
+    /* padding: 15px 35px 15px 35px; */
+    padding: 15px;
+    margin: 10px;
+    color: white;
+}
+.normalbtn:hover{
+    color: #02B964;
+    cursor: pointer;
+}
+.normalbtn1:hover{
+    color: #02B964;
+    cursor: pointer;
+}
+.specialbtn:hover{
+    cursor: pointer;
+}
+.background{
+    background-image: url(https://trashcon.in/wp-content/uploads/2022/12/landing.jpg);
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.intro{
+    padding-right: 400px;
+    padding-left: 120px;
+}
+.intro h1{
+    z-index: 1;
+    color: white;
+    font-size: 70px;
+    font-weight: lighter;
+   
+}
+.intro h2{
+    z-index: 1;
+    color: white;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    font-size: 30px;
+    margin: 7px;
+}
+.btn1{
+    background-color: white;
+    color: #6fefb3;
+    padding:15px 30px 15px 30px;
+    margin: 10px;
+    font-size: 15px;
+    border-radius: 7px;
+    border: none;
+}
+.btn1:hover{
+    cursor: pointer;
+    background-color: #02B964;
+    color: whitesmoke;
+    transition: 0.3s;
+}
+.btn2{
+    background: none;
+    color: white;
+    padding:13px 30px 13px 30px;
+    margin: 10px;
+    font-size: 15px;
+    border-radius: 7px;
+    border-color: white;
+}
+.btn2:hover{
+    cursor: pointer;
+    background-color: #02B964;
+    color: whitesmoke;
+    transition: 0.3s;
+}
+.boxes{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.box1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 300px;
+    background-color: #02B964;
+}
+.box2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 300px;
+    background-color: white;
+}
+.box3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 300px;
+    background-color: #02B964;
+}
+.box4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 300px;
+    background-color: white;
+   
+}
+.fa-gear{
+    color: white;
+    padding-left: 110px;
+    padding-bottom: 20px;
+    font-size: 25px;
+}
+.box1con h1{
+    color: white;
+    font-weight: lighter;
+    padding-left: 100px;
+}
+.box1con h2{
+    color: white;
+    font-weight: lighter;
+    padding-left: 20px;
+}
+.fa-trash{
+    color: black;
+    padding-left: 130px;
+    padding-bottom: 20px;
+    font-size: 25px;
+    padding-top: 20px;
+}
+.box2con h1{
+    color: black;
+    font-weight: lighter;
+    padding-left: 60px;
+}
+.box2con h2{
+    color: black;
+    font-weight: lighter;
+    padding-left: 20px;
+    font-size: 20px;
+}
+.fa-earth-americas{
+    color: white;
+    padding-left: 70px;
+    padding-bottom: 12px;
+    font-size: 25px;
+    padding-top: 20px;
+}
+.box3con h1{
+    color: white;
+    font-weight: lighter;
+    padding-left: 20px;
+    font-size: 45px;
+}
+.box3con h2{
+    color: white;
+    font-weight: lighter;
+    padding-left: 30px;
+}
+.fa-user{
+    color: black;
+    padding-left: 110px;
+    padding-bottom: 20px;
+    font-size: 25px;
+    padding-top: 10px;
+}
+.box4con h1{
+    color: black;
+    font-weight: lighter;
+    padding-left: 30px;
+}
+.box4con h2{
+    color: black;
+    font-weight: lighter;
+    padding-left: 20px;
+    font-size: 20px;
+}
+.about{
+   height: 35vh;
+   width: 100%; 
+   display: flex;
+   justify-content: center;
+   background-color: rgba(238, 227, 227, 0.562);
+   padding-top: 40px;
+}
+.about h1{
+    color: #02B964;
+    font-weight: lighter;
+    padding: 0 0  0 150px;
+    margin-bottom: 50px;
+}
+.descript1{
+    color: grey;
+    font-weight: lighter;
+    margin-bottom: 20px;
+    padding: 0 0  0 10px;
+}
+.descript2{
+    color: grey;
+    font-weight: lighter;
+    margin-bottom: 20px;
+    padding: 0 0  0 10px;
+}
+
+.products h1{
+    color: #02B964;
+    font-weight: lighter;
+    padding: 15px 0  0 500px;
+    margin-bottom: 50px;
+}
+.procont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.procont1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 50%;
+    height: 75vh;   
+    background-image: url(https://media.istockphoto.com/id/122705656/photo/truck-with-metal-scrap.jpg?s=1024x1024&w=is&k=20&c=AU8L8T6nMNv6a8oosIgajfgs_7RqERO31tPfWUiQSyg=);
+    z-index: 1;
+}
+.procont1 h1{
+    color: #02B964;
+    padding: 100px;
+    font-weight: bolder;
+}
+.procont2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 50%;
+    height: 75vh;   
+    background-image: url(https://media.istockphoto.com/id/122705656/photo/truck-with-metal-scrap.jpg?s=1024x1024&w=is&k=20&c=AU8L8T6nMNv6a8oosIgajfgs_7RqERO31tPfWUiQSyg=);
+    z-index: 1;
+}
+.procont2 h1{
+    font-weight: bolder;
+    padding: 100px;
+    color: #02B964;
+}
+.procont1 button{
+    background: none;
+    border-color: 20px white;
+    color: white;
+    margin: 20px;
+    border: 2px solid white;
+    padding: 15px 20px 15px 20px;
+    letter-spacing: 2px;
+}
+.procont1 button:hover{
+    cursor: pointer;
+    transition: 0.3s;
+    background-color: #02B964;
+    border: none;
+}
+.procont2 button{
+    background: none;
+    border-color: 20px white;
+    color: white;
+    margin: 20px;
+    border: 2px solid white;
+    padding: 15px 20px 15px 20px;
+    letter-spacing: 2px;
+}
+.procont2 button:hover{
+    cursor: pointer;
+    transition: 0.3s;
+    background-color: #02B964;
+    border: none;
+}
+.testimonial{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 60vh;
+    background-image: url(https://trashcon.in/wp-content/uploads/2022/11/triangle-background.jpg);
+    opacity: 1;
+    filter: contrast(125%);
+}
+.testimonial h1{
+    color: white;
+    font-weight: lighter;
+    margin-top: 100px;
+    font-size: 35px;
+}
+.testimonial div{
+    color: whitesmoke;
+    margin: 20px;
+    font-weight: lighter;
+}
+.testimonial img{
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+}
+.test1{
+    display: flex;
+    flex-direction: row;    
+}
+.test1txt{
+    padding: 20px;
+    font-weight: lighter;
+    letter-spacing: 3px;
+}
